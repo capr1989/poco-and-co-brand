@@ -1,0 +1,44 @@
+{
+  "ldhName": "POCOANDCO.COM",
+  "status": [
+    "active"
+  ],
+  "events": [
+    {
+      "eventAction": "registration",
+      "eventDate": "2013-09-03T14:02:43Z"
+    },
+    {
+      "eventAction": "expiration",
+      "eventDate": "2027-09-03T14:02:43Z"
+    },
+    {
+      "eventAction": "last changed",
+      "eventDate": "2026-09-04T08:21:43Z"
+    },
+    {
+      "eventAction": "last update of RDAP database",
+      "eventDate": "2026-11-02T19:43:02Z"
+    }
+  ],
+  "nameservers": [
+    {
+      "objectClassName": "nameserver",
+      "ldhName": "NS1028.UI-DNS.DE"
+    },
+    {
+      "objectClassName": "nameserver",
+      "ldhName": "NS1050.UI-DNS.COM"
+    },
+    {
+      "objectClassName": "nameserver",
+      "ldhName": "NS1122.UI-DNS.BIZ"
+    },
+    {
+      "objectClassName": "nameserver",
+      "ldhName": "NS1125.UI-DNS.ORG"
+    }
+  ],
+  "source": "https://rdap.verisign.com/com/v1/domain/pocoandco.com",
+  "checked_date": "2026-11-02"
+}

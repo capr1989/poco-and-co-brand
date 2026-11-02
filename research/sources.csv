@@ -1,0 +1,27 @@
+id,checked_date,topic,query_or_scope,url,result,classification,limitation
+S01,2026-11-02,Nombre,Poco and Co,https://pocoandco.com/,Contenido recuperado muestra Poco&Co y enlace a Instagram,Coincidencia confirmada,Contenido web recuperado puede estar almacenado; HTTP directo falló por TLS
+S02,2026-11-02,Dominio,pocoandco.com,https://rdap.verisign.com/com/v1/domain/pocoandco.com,Registro activo y expiración informada en 2027,Coincidencia confirmada,No es dictamen marcario; resumen local domain-com-rdap.json
+S03,2026-11-02,Nombre,Poco & Co,https://sl.ifs.sn/blog/exposition/gis-gis-saint-louis-par-poco-co/,Institución documenta estudio POCO&CO y @poco.and.co,Coincidencia confirmada,Publicación sobre exposición de 2023
+S04,2026-11-02,Comercio,Poco and co,https://moogoo-creative-africa.com/en-fr/collections/friends,Bolsa atribuida a Poco and co,Coincidencia confirmada,No prueba derechos en Panamá
+S05,2026-11-02,Comercio,Poco & Co.,https://store.line.me/emojishop/product/6acc4039351ef75626dbb83f/ja,Creador identificado con el nombre,Coincidencia confirmada,No se compró el recurso ni se usó su gráfica
+S06,2026-11-02,Comercio,POCOCO,https://pococo.com/,Proyectores e iluminación,Coincidencia confirmada,No prueba registro panameño
+S07,2026-11-02,Marca extranjera,POCOCO expediente 2420149,https://ised-isde.canada.ca/cipo/trademark-search/pdf/2420149?lang=eng,Antecedente canadiense clase 11,Posible conflicto,Solo evidencia extranjera
+S08,2026-11-02,Comercio,POCO,https://www.po.co/global/,Productos tecnológicos oficiales,Coincidencia confirmada,No sustituye expediente de marca
+S09,2026-11-02,DIGERPI,Marca POCO sin filtrar clase o estado,https://consultas.digerpi.gob.pa/,14 solicitudes; POCO Xiaomi mostrado Vigente en clases que incluyen 9 y 35,Posible conflicto,Consulta pública no certificada; expedientes seleccionados en informe
+S10,2026-11-02,DIGERPI,Marca POCOCO,https://consultas.digerpi.gob.pa/,No se encontraron registros,Información no verificable,Ausencia de resultado no acredita disponibilidad
+S11,2026-11-02,DIGERPI,"Marca ""POCO & CO""",https://consultas.digerpi.gob.pa/,No se encontraron registros,Información no verificable,Comillas ingresadas; no equivale a búsqueda fonética
+S12,2026-11-02,DIGERPI,"Marca ""POCO AND CO""",https://consultas.digerpi.gob.pa/,No se encontraron registros,Información no verificable,Comillas ingresadas; no equivale a búsqueda fonética
+S13,2026-11-02,DIGERPI,"Marca ""POCO CO""",https://consultas.digerpi.gob.pa/,No se encontraron registros,Información no verificable,Comillas ingresadas; no equivale a búsqueda fonética
+S14,2026-11-02,DIGERPI antiguo,Portada,https://consulta.digerpi.gob.pa/,Anuncia disponibilidades hasta febrero 2022,Limitación de fuente,Se usó el sistema nuevo para los resultados
+S15,2026-11-02,MICI,Requisitos de marca,https://mici.gob.pa/requisitos-marcas/amp/,Identificación de productos y servicios por clase,Fuente oficial,Información general; no asesoría legal
+S16,2026-11-02,Dominio,pocoandco.com.pa,https://nic.pa/en/whois,Domain does not exist / Domain information not found,Sin registro encontrado en WHOIS,Disponibilidad para contratación no comprobada; sin reserva
+S17,2026-11-02,Dominio,pocoandco.pa,https://nic.pa/en/whois,Domain does not exist / Domain information not found,Sin registro encontrado en WHOIS,Disponibilidad para contratación no comprobada; sin reserva
+S18,2026-11-02,Instagram,@poco.and.co,https://instagram.com/poco.and.co,Referencia en sitio y publicación institucional,Coincidencia referenciada,Perfil directo limitado; control actual no verificado
+S19,2026-11-02,Facebook,Poco and Co / pocoandco,https://www.facebook.com/,Sin perfil exacto verificable,Información no verificable,Búsqueda pública insuficiente para disponibilidad
+S20,2026-11-02,TikTok,pocoandco,https://www.tiktok.com/,Acceso de búsqueda bloqueado por robots,Información no verificable,Sin disponibilidad comprobada
+S21,2026-11-02,Referencia diseño,Liberty identidad,https://www.pentagram.com/work/liberty,Refinamiento tipográfico y sistema coherente,Referencia de criterio,No se descargaron ni copiaron logotipos
+S22,2026-11-02,Referencia diseño,House by John Lewis,https://www.pentagram.com/work/house-by-john-lewis,Sistema flexible para diversas categorías,Referencia de criterio,No se copiaron letra ni keylines
+S23,2026-11-02,Referencia diseño,John Lewis Partnership,https://www.pentagram.com/work/the-john-lewis-partnership,Jerarquía entre nombre y compañía,Referencia de criterio,No se copiaron logotipos ni sistema de franjas
+S24,2026-11-02,Fuentes,Manrope,https://github.com/google/fonts/tree/main/ofl/manrope,Fuente y SIL OFL incluidas,Licencia incluida,Sin modificación del archivo de fuente
+S25,2026-11-02,Fuentes,Fraunces,https://github.com/google/fonts/tree/main/ofl/fraunces,Fuente y SIL OFL incluidas,Licencia incluida,Se instancian ejes para contornos
+S26,2026-11-02,Fuentes,Archivo Black,https://github.com/google/fonts/tree/main/ofl/archivoblack,Fuente y SIL OFL incluidas,Licencia incluida,Sin modificación del archivo de fuente

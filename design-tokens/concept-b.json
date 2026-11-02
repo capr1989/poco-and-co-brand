@@ -1,0 +1,21 @@
+{
+  "id": "b",
+  "name": "Cada día, un poco",
+  "ink": "#532C30",
+  "paper": "#F5EDDF",
+  "accent": "#94543C",
+  "secondary": "#ADB18A",
+  "light": "#FFFDF8",
+  "font": "Fraunces",
+  "display": "Fraunces 600 · óptica 72 · suavidad 40",
+  "spacingBase": 8,
+  "clearSpace": "0.5 × altura de la o / 0.25 × altura del bloque en C",
+  "minimumHorizontalPx": 164,
+  "minimumPrimaryPx": 180,
+  "minimumCompactPx": 112,
+  "faviconPx": [
+    16,
+    32,
+    48
+  ]
+}

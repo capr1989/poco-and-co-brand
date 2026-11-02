@@ -1,0 +1,21 @@
+{
+  "id": "c",
+  "name": "Un mundo en Poco",
+  "ink": "#153E35",
+  "paper": "#F1F0E7",
+  "accent": "#BA4429",
+  "secondary": "#CFDC96",
+  "light": "#FFFFFF",
+  "font": "Archivo Black",
+  "display": "Archivo Black · composición de bloque",
+  "spacingBase": 8,
+  "clearSpace": "0.5 × altura de la o / 0.25 × altura del bloque en C",
+  "minimumHorizontalPx": 150,
+  "minimumPrimaryPx": 96,
+  "minimumCompactPx": 64,
+  "faviconPx": [
+    16,
+    32,
+    48
+  ]
+}

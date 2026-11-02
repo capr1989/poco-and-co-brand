@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Poco & Co. — Tres maneras de empezar</title>
+  <meta name="description" content="Estudio local de tres propuestas de identidad para Poco & Co. Nombre provisional, para revisión de los fundadores.">
+  <link rel="icon" href="../concepts/concept-a/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#propuestas">Saltar a las propuestas</a>
+  <header class="masthead"><a class="wordmark" href="#inicio">POCO <span>&</span> CO.</a><span class="edition">ESTUDIO DE IDENTIDAD / 01</span><nav aria-label="Índice"><a href="#propuestas">Propuestas</a><a href="#comparar">Comparación</a><a href="#nombre">El nombre <span class="dot"></span></a></nav></header>
+  <main id="inicio">
+    <section class="intro wrap">
+      <div class="eyebrow"><span>CONSTRUIR ALGO JUNTOS</span><span>PANAMÁ · NOVIEMBRE 2026</span></div>
+      <div class="intro-grid"><h1>Tres maneras<br>de <em>empezar.</em></h1><div class="intro-copy"><p>Una tienda con muchas posibilidades.<br>Una identidad que pueda acompañarlas.</p><p class="muted">Tres rutas de diseño para explorar en pareja. Letras, color y aplicaciones reales para decidir qué se siente más propio.</p><a class="text-link" href="#propuestas">Ver las tres propuestas <span>↓</span></a></div></div>
+      <div class="provisional"><span class="status-dot"></span><strong>Nombre provisional.</strong> El dominio .com tiene uso existente y DIGERPI muestra antecedentes POCO. <a href="#nombre">Revisar hallazgos ↗</a></div>
+    </section>
+
+    <section id="propuestas" class="wrap section-start" aria-labelledby="proposals-title">
+      <div class="section-heading"><h2 id="proposals-title">Una historia. Tres expresiones.</h2><span class="eyebrow">01 — LAS RUTAS</span></div>
+      <div class="concept-grid" id="concept-cards"></div>
+    </section>
+
+    <section class="detail-section" id="explorar" aria-labelledby="detail-title">
+      <div class="wrap">
+        <div class="detail-top"><span class="eyebrow">02 — EN DETALLE</span><div class="route-tabs" role="tablist" aria-label="Elegir propuesta"><button role="tab" id="tab-a" data-route="a" aria-selected="true" aria-controls="route-panel">A / Geométrica</button><button role="tab" id="tab-b" data-route="b" aria-selected="false" aria-controls="route-panel" tabindex="-1">B / Editorial</button><button role="tab" id="tab-c" data-route="c" aria-selected="false" aria-controls="route-panel" tabindex="-1">C / Comercial</button></div></div>
+        <div id="route-panel" role="tabpanel" aria-labelledby="tab-a">
+          <div class="identity-grid"><div class="identity-copy"><span id="route-label" class="eyebrow"></span><h2 id="detail-title"></h2><p id="concept-idea"></p><dl class="pros-cons"><dt>Lo que aporta</dt><dd id="concept-strength"></dd><dt>Lo que hay que cuidar</dt><dd id="concept-limit"></dd></dl></div>
+          <div class="identity-art"><div class="logo-controls"><label>Versión <select id="logo-variant"><option value="primary">Principal</option><option value="horizontal">Horizontal</option><option value="compact">Compacta</option><option value="monochrome">Monocromática</option><option value="favicon">Favicon</option></select></label><button class="theme-toggle" id="theme-toggle" aria-pressed="false">Fondo oscuro ◐</button></div><button class="logo-stage" id="logo-stage" aria-label="Ampliar logotipo"><img id="detail-logo" alt=""><span class="expand-label">Ampliar ↗</span></button><div class="download-bar"><span>FORMAS VECTORIALES · EDITABLES</span><div><a id="download-svg" download>SVG ↓</a><a id="download-png" download>PNG ↓</a><a id="brand-guide">Guía ↗</a></div></div></div></div>
+          <div class="system-grid"><div><h3>Color con intención.</h3><p id="color-note" class="muted"></p><div id="swatches" class="swatches"></div><span class="small muted">Selecciona un color para copiar su HEX.</span></div><div class="type-specimen"><span class="eyebrow">TIPOGRAFÍA</span><p class="type-display" id="type-preview">Un poco de todo.</p><strong id="type-name"></strong><p class="small muted" id="type-note"></p><a id="tokens-link" class="text-link">Consultar tokens ↗</a></div></div>
+          <div class="usage-strip"><div><span class="eyebrow">ESPACIO</span><p id="space-note"></p></div><div><span class="eyebrow">TAMAÑO DIGITAL</span><p id="size-note"></p></div><div><span class="eyebrow">REPRODUCCIÓN</span><p>Una tinta o color plano. Sin sombras, estiramientos ni elementos añadidos.</p></div></div>
+
+          <div class="application-heading"><div><span class="eyebrow">LA MARCA EN LA VIDA REAL</span><h3>Mucho más que un logo.</h3></div><p>Ejemplos visuales de tienda y comunicación.<br>Productos, precios y contenidos ilustrativos.</p></div>
+          <div class="application-tabs" role="group" aria-label="Aplicaciones"><button data-app="shopify-desktop" aria-pressed="true">Tienda · escritorio</button><button data-app="shopify-mobile" aria-pressed="false">Tienda · móvil</button><button data-app="browser-favicon" aria-pressed="false">Navegador</button><button data-app="instagram-profile" aria-pressed="false">Perfil social</button><button data-app="promotional-post" aria-pressed="false">Publicación</button><button data-app="product-card" aria-pressed="false">Producto</button><button data-app="packaging-label" aria-pressed="false">Empaque</button></div>
+          <div class="application-frame"><button id="application-zoom" class="application-zoom" aria-label="Ampliar aplicación"><img id="application-image" alt=""><span class="expand-label">Ampliar ↗</span></button></div>
+          <div class="application-caption"><p id="application-caption"></p><div><a id="app-svg" download>SVG ↓</a><a id="app-png" download>PNG ↓</a></div></div>
+          <div class="all-apps" id="all-apps"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="comparar" class="wrap comparison-section" aria-labelledby="comparison-title"><div class="section-heading"><h2 id="comparison-title">Comparar con criterio.</h2><span class="eyebrow">03 — LA DECISIÓN ES DE USTEDES</span></div><p class="section-lead">Una evaluación de diseño orientativa, con la misma escala y los mismos pesos. Los puntajes son juicio de diseño, no resultados de una encuesta o una búsqueda legal.</p><div class="table-scroll"><table><caption class="sr-only">Matriz ponderada de las tres propuestas, del 1 al 10</caption><thead><tr><th scope="col">Criterio</th><th scope="col">Peso</th><th scope="col">A · Geométrica</th><th scope="col">B · Editorial</th><th scope="col">C · Comercial</th></tr></thead><tbody id="score-table"></tbody></table></div><div class="comparison-foot"><p>Ninguna propuesta queda seleccionada automáticamente.<br>La identidad elegida debe sentirse propia para ambos.</p><a href="../comparison/evaluation.md" class="text-link">Leer justificaciones de cada puntaje ↗</a></div><div class="questions"><span class="eyebrow">PARA CONVERSAR JUNTOS</span><h3>¿Con cuál se imaginan<br>enviando su primer pedido?</h3><div><p>01 / ¿Cuál reconocen sin depender del color?</p><p>02 / ¿Cuál funciona igual de bien con tecnología y hogar?</p><p>03 / ¿Cuál los representa también dentro de cinco años?</p></div></div></section>
+
+    <section id="nombre" class="research-section"><div class="wrap"><div class="section-heading"><h2>Antes de elegir el nombre.</h2><span class="eyebrow">04 — INVESTIGACIÓN PRELIMINAR</span></div><div class="research-grid"><div><span class="research-status">REQUIERE REVISIÓN</span><h3>La identidad avanza.<br>El nombre sigue abierto.</h3><p>La revisión del 2 de noviembre de 2026 encontró usos existentes y antecedentes que conviene evaluar antes de invertir en una marca definitiva.</p><a class="text-link" href="../research/brand-availability.md">Ver informe, fuentes y límites ↗</a></div><ul class="findings"><li><span>01 / DOMINIO</span><p><a href="https://rdap.verisign.com/com/v1/domain/pocoandco.com" target="_blank" rel="noopener">pocoandco.com ↗</a> está registrado según RDAP. El contenido web recuperado muestra “Poco&Co”; ese contenido puede estar almacenado.</p></li><li><span>02 / PANAMÁ</span><p>La <a href="https://consultas.digerpi.gob.pa/" target="_blank" rel="noopener">consulta DIGERPI ↗</a> mostró POCO de Xiaomi con estado “Vigente”, en clases que incluyen 9 y 35. Posible conflicto, sin dictamen legal.</p></li><li><span>03 / REDES Y .PA</span><p>Hay referencias públicas a @poco.and.co. WHOIS de NIC Panamá no encontró registros de los dos dominios .pa consultados; su contratación y otros usuarios siguen sin disponibilidad comprobada.</p></li></ul></div><p class="research-disclaimer">No se registraron marcas, compraron dominios ni crearon cuentas. Los diseños usan un nombre provisional y no constituyen una identidad legalmente aprobada.</p></div></section>
+  </main>
+  <footer class="wrap footer"><div class="wordmark">POCO <span>&</span> CO.</div><p>Tres propuestas para construir algo propio.<br>Estudio de identidad · versión 01 · revisión de fundadores</p><a href="../qa/report.md">Control de calidad ↗</a></footer>
+  <dialog id="image-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><h2 id="dialog-title">Vista ampliada</h2><button id="dialog-close" aria-label="Cerrar vista ampliada">Cerrar ×</button></div><div id="dialog-stage"><img id="dialog-image" alt=""></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="wrap">Activa JavaScript para comparar propuestas. También puedes abrir directamente los SVG en la carpeta concepts y las guías Markdown.</p></noscript>
+</body>
+</html>

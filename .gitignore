@@ -9,3 +9,5 @@ Desktop.ini
 !.env.example
 node_modules/
 work/
+__pycache__/
+*.py[cod]

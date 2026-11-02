@@ -1,0 +1,280 @@
+{
+  "date": "2026-11-02",
+  "svg_count": 57,
+  "png_count": 63,
+  "errors": [],
+  "contrast": {
+    "a": {
+      "ink_on_paper": 12.73,
+      "paper_on_ink": 12.73,
+      "accent_on_paper": 5.59,
+      "ink_on_secondary": 8.52
+    },
+    "b": {
+      "ink_on_paper": 10.2,
+      "paper_on_ink": 10.2,
+      "accent_on_paper": 5.03,
+      "ink_on_secondary": 5.33
+    },
+    "c": {
+      "ink_on_paper": 10.36,
+      "paper_on_ink": 10.36,
+      "accent_on_paper": 4.65,
+      "ink_on_secondary": 8.09
+    }
+  },
+  "dimensions": {
+    "concepts\\concept-a\\exports\\browser-favicon.png": [
+      2160,
+      518
+    ],
+    "concepts\\concept-a\\exports\\favicon-16.png": [
+      16,
+      16
+    ],
+    "concepts\\concept-a\\exports\\favicon-32.png": [
+      32,
+      32
+    ],
+    "concepts\\concept-a\\exports\\favicon-48.png": [
+      48,
+      48
+    ],
+    "concepts\\concept-a\\exports\\favicon.png": [
+      512,
+      512
+    ],
+    "concepts\\concept-a\\exports\\instagram-profile.png": [
+      2160,
+      2160
+    ],
+    "concepts\\concept-a\\exports\\logo-clear-space.png": [
+      3000,
+      1860
+    ],
+    "concepts\\concept-a\\exports\\logo-compact-dark.png": [
+      3000,
+      2700
+    ],
+    "concepts\\concept-a\\exports\\logo-compact.png": [
+      3000,
+      2700
+    ],
+    "concepts\\concept-a\\exports\\logo-dark.png": [
+      3000,
+      1091
+    ],
+    "concepts\\concept-a\\exports\\logo-horizontal-dark.png": [
+      3000,
+      1091
+    ],
+    "concepts\\concept-a\\exports\\logo-horizontal.png": [
+      3000,
+      1091
+    ],
+    "concepts\\concept-a\\exports\\logo-light.png": [
+      3000,
+      1091
+    ],
+    "concepts\\concept-a\\exports\\logo-monochrome-dark.png": [
+      3000,
+      1091
+    ],
+    "concepts\\concept-a\\exports\\logo-monochrome.png": [
+      3000,
+      1091
+    ],
+    "concepts\\concept-a\\exports\\logo-primary.png": [
+      3000,
+      1091
+    ],
+    "concepts\\concept-a\\exports\\packaging-label.png": [
+      2160,
+      1620
+    ],
+    "concepts\\concept-a\\exports\\product-card.png": [
+      2160,
+      2808
+    ],
+    "concepts\\concept-a\\exports\\promotional-post.png": [
+      2160,
+      2700
+    ],
+    "concepts\\concept-a\\exports\\shopify-desktop.png": [
+      2160,
+      1620
+    ],
+    "concepts\\concept-a\\exports\\shopify-mobile.png": [
+      1170,
+      2532
+    ],
+    "concepts\\concept-b\\exports\\browser-favicon.png": [
+      2160,
+      518
+    ],
+    "concepts\\concept-b\\exports\\favicon-16.png": [
+      16,
+      16
+    ],
+    "concepts\\concept-b\\exports\\favicon-32.png": [
+      32,
+      32
+    ],
+    "concepts\\concept-b\\exports\\favicon-48.png": [
+      48,
+      48
+    ],
+    "concepts\\concept-b\\exports\\favicon.png": [
+      512,
+      512
+    ],
+    "concepts\\concept-b\\exports\\instagram-profile.png": [
+      2160,
+      2160
+    ],
+    "concepts\\concept-b\\exports\\logo-clear-space.png": [
+      3000,
+      1860
+    ],
+    "concepts\\concept-b\\exports\\logo-compact-dark.png": [
+      3000,
+      2700
+    ],
+    "concepts\\concept-b\\exports\\logo-compact.png": [
+      3000,
+      2700
+    ],
+    "concepts\\concept-b\\exports\\logo-dark.png": [
+      3000,
+      1600
+    ],
+    "concepts\\concept-b\\exports\\logo-horizontal-dark.png": [
+      3000,
+      908
+    ],
+    "concepts\\concept-b\\exports\\logo-horizontal.png": [
+      3000,
+      908
+    ],
+    "concepts\\concept-b\\exports\\logo-light.png": [
+      3000,
+      1600
+    ],
+    "concepts\\concept-b\\exports\\logo-monochrome-dark.png": [
+      3000,
+      1600
+    ],
+    "concepts\\concept-b\\exports\\logo-monochrome.png": [
+      3000,
+      1600
+    ],
+    "concepts\\concept-b\\exports\\logo-primary.png": [
+      3000,
+      1600
+    ],
+    "concepts\\concept-b\\exports\\packaging-label.png": [
+      2160,
+      1620
+    ],
+    "concepts\\concept-b\\exports\\product-card.png": [
+      2160,
+      2808
+    ],
+    "concepts\\concept-b\\exports\\promotional-post.png": [
+      2160,
+      2700
+    ],
+    "concepts\\concept-b\\exports\\shopify-desktop.png": [
+      2160,
+      1620
+    ],
+    "concepts\\concept-b\\exports\\shopify-mobile.png": [
+      1170,
+      2532
+    ],
+    "concepts\\concept-c\\exports\\browser-favicon.png": [
+      2160,
+      518
+    ],
+    "concepts\\concept-c\\exports\\favicon-16.png": [
+      16,
+      16
+    ],
+    "concepts\\concept-c\\exports\\favicon-32.png": [
+      32,
+      32
+    ],
+    "concepts\\concept-c\\exports\\favicon-48.png": [
+      48,
+      48
+    ],
+    "concepts\\concept-c\\exports\\favicon.png": [
+      512,
+      512
+    ],
+    "concepts\\concept-c\\exports\\instagram-profile.png": [
+      2160,
+      2160
+    ],
+    "concepts\\concept-c\\exports\\logo-clear-space.png": [
+      3000,
+      1860
+    ],
+    "concepts\\concept-c\\exports\\logo-compact-dark.png": [
+      3000,
+      2700
+    ],
+    "concepts\\concept-c\\exports\\logo-compact.png": [
+      3000,
+      2700
+    ],
+    "concepts\\concept-c\\exports\\logo-dark.png": [
+      3000,
+      1700
+    ],
+    "concepts\\concept-c\\exports\\logo-horizontal-dark.png": [
+      3000,
+      788
+    ],
+    "concepts\\concept-c\\exports\\logo-horizontal.png": [
+      3000,
+      788
+    ],
+    "concepts\\concept-c\\exports\\logo-light.png": [
+      3000,
+      1700
+    ],
+    "concepts\\concept-c\\exports\\logo-monochrome-dark.png": [
+      3000,
+      1700
+    ],
+    "concepts\\concept-c\\exports\\logo-monochrome.png": [
+      3000,
+      1700
+    ],
+    "concepts\\concept-c\\exports\\logo-primary.png": [
+      3000,
+      1700
+    ],
+    "concepts\\concept-c\\exports\\packaging-label.png": [
+      2160,
+      1620
+    ],
+    "concepts\\concept-c\\exports\\product-card.png": [
+      2160,
+      2808
+    ],
+    "concepts\\concept-c\\exports\\promotional-post.png": [
+      2160,
+      2700
+    ],
+    "concepts\\concept-c\\exports\\shopify-desktop.png": [
+      2160,
+      1620
+    ],
+    "concepts\\concept-c\\exports\\shopify-mobile.png": [
+      1170,
+      2532
+    ]
+  }
+}

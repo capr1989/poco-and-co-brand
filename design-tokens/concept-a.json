@@ -1,0 +1,21 @@
+{
+  "id": "a",
+  "name": "En buena compañía",
+  "ink": "#192C46",
+  "paper": "#F1F4F2",
+  "accent": "#2855D9",
+  "secondary": "#B8CEC7",
+  "light": "#FFFFFF",
+  "font": "Manrope",
+  "display": "Lettering geométrico original",
+  "spacingBase": 8,
+  "clearSpace": "0.5 × altura de la o / 0.25 × altura del bloque en C",
+  "minimumHorizontalPx": 200,
+  "minimumPrimaryPx": 200,
+  "minimumCompactPx": 80,
+  "faviconPx": [
+    16,
+    32,
+    48
+  ]
+}
