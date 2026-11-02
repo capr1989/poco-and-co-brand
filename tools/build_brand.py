@@ -66,11 +66,12 @@ def a_letter(char,x,y,sz=1,color='#192C46'):
 
 def logo(d,variant='primary',color=None):
     k=d['id']; co=color or d['ink']
-    if variant=='favicon':
-        if k=='a': body=a_letter('p',31,23,.68,d['light'])
+    if variant in ['favicon','favicon-light','favicon-dark']:
+        if k=='a': body=a_letter('p',31,23,.68,d['ink'] if variant=='favicon-light' else d['light'])
         elif k=='b': body=text('P',64,103,116,d['light'],SERIF,align='center')
         else: body=text('P',64,99,95,d['light'],BLACK,align='center')
-        return svg(128,128,rect(0,0,128,128,d['accent'] if k=='a' else d['ink'],24)+body,'Poco & Co. — inicial de uso reducido')
+        background=d['paper'] if k=='a' and variant=='favicon-light' else d['ink']
+        return svg(128,128,rect(0,0,128,128,background,24)+body,'Poco & Co. — inicial de uso reducido')
     if variant=='compact':
         if k=='a': body=a_letter('p',44,32,1.03,co)+a_letter('c',160,32,1.03,co)+text('&',143,216,38,co,BOLD,align='center')
         elif k=='b': body=text('P',148,185,200,co,SERIF,align='center')+text('& CO.',150,231,26,co,SANS,2,align='center')
@@ -202,6 +203,8 @@ def main():
             content=logo(d,'primary' if v in ['monochrome','light','dark'] else v,color)
             write(base/f'logo-{v}.svg',content)
         write(base/'favicon.svg',logo(d,'favicon'))
+        if d['id']=='a':
+            for v in ['favicon-light','favicon-dark']: write(base/f'{v}.svg',logo(d,v))
         for v in ['horizontal','compact','monochrome']:
             write(base/f'logo-{v}-dark.svg',logo(d,'primary' if v=='monochrome' else v,'#FFFFFF' if v=='monochrome' else d['paper']))
         for name,fn in app_functions.items(): write(base/'applications'/f'{name}.svg',fn(d))
@@ -212,6 +215,7 @@ def main():
         write(base/'typography-editable.svg',editable)
         token={key:d[key] for key in ['id','name','ink','paper','accent','secondary','light','font','display']}
         token.update(spacingBase=8,clearSpace='0.5 × altura de la o / 0.25 × altura del bloque en C',minimumHorizontalPx={'a':200,'b':164,'c':150}[d['id']],minimumPrimaryPx={'a':200,'b':180,'c':96}[d['id']],minimumCompactPx={'a':80,'b':112,'c':64}[d['id']],faviconPx=[16,32,48])
+        if d['id']=='a': token['favicon']={'background':d['ink'],'foreground':d['light'],'lightBackground':d['paper'],'lightForeground':d['ink']}
         write(Path('design-tokens')/f'concept-{d["id"]}.json',json.dumps(token,ensure_ascii=False,indent=2))
     write(Path('presentation')/'data.js','window.BRAND_DATA = '+json.dumps(DATA,ensure_ascii=False,indent=2)+';\n')
     board=rect(0,0,1500,790,'#F6F5EF')+text('POCO & CO. / ESTUDIO DE IDENTIDAD 01',54,54,14,'#202D2E',BOLD,1.5)+text('Tres maneras de empezar.',50,143,65,'#202D2E',SANS,-2)

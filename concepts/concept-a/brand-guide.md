@@ -21,6 +21,7 @@ Lettering original construido en curvas Bézier, con módulo compartido para las
 - `logo-light.svg` y `logo-dark.svg`: tintas para fondos claros y oscuros; fondo transparente, debe elegirse el fondo correspondiente.
 - `logo-horizontal-dark.svg`, `logo-compact-dark.svg`, `logo-monochrome-dark.svg`: inversiones exportables, también transparentes.
 - `favicon.svg`: inicial P sobre campo de marca, desde 16 px. No se intenta comprimir el nombre entero en un favicon.
+- En A, el favicon usa fondo azul tinta #192C46 y p blanca; `favicon-dark.svg` es la misma firma y `favicon-light.svg` invierte a niebla con p tinta. Ver `favicon-refinement.md`.
 - `logo-clear-space.svg`: diagrama de área libre, **el marco no forma parte del logo**.
 - `typography-editable.svg`: estudio con texto vivo. Requiere instalar las fuentes incluidas; no es el arte final del logotipo. El lettering A se edita como curvas en los archivos finales.
 - `exports/`: PNG con contornos idénticos a los SVG, logos a 3000 px de ancho; favicon a 512, 48, 32 y 16 px; aplicaciones a 2160 px, salvo móvil a 1170 px.

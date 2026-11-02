@@ -10,11 +10,12 @@ for (const id of ['a', 'b', 'c']) {
   fs.mkdirSync(exportsDir, { recursive: true });
   for (const name of fs.readdirSync(base).filter(n => n.endsWith('.svg') && !n.startsWith('typography'))) {
     const input = fs.readFileSync(path.join(base, name));
-    const opts = { fitTo: { mode: 'width', value: name === 'favicon.svg' ? 512 : 3000 } };
+    const isFavicon = /^favicon(?:-light|-dark)?\.svg$/.test(name);
+    const opts = { fitTo: { mode: 'width', value: isFavicon ? 512 : 3000 } };
     fs.writeFileSync(path.join(exportsDir, name.replace('.svg', '.png')), new Resvg(input, opts).render().asPng());
     count++;
-    if (name === 'favicon.svg') for (const size of [16, 32, 48]) {
-      fs.writeFileSync(path.join(exportsDir, `favicon-${size}.png`), new Resvg(input, {fitTo:{mode:'width',value:size}}).render().asPng());
+    if (isFavicon) for (const size of [16, 32, 48]) {
+      fs.writeFileSync(path.join(exportsDir, `${name.slice(0,-4)}-${size}.png`), new Resvg(input, {fitTo:{mode:'width',value:size}}).render().asPng());
       count++;
     }
   }

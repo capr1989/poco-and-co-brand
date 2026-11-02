@@ -17,7 +17,9 @@ Los resultados y dimensiones exactas se conservan en [validation.json](validatio
 - Comprobación de enlaces estáticos locales de la presentación y presencia de licencias de fuentes.
 - Cálculo de contraste sRGB de tinta/papel y combinaciones de apoyo. Usar tinta sobre papel y sobre secundario para texto funcional.
 
-El inventario final incluye **57 SVG en concepts y 63 PNG**, más la lámina comparativa fuera de esa carpeta. Las tres parejas tinta/papel superan 10:1; el ajuste del oliva B y del óxido C elevó las combinaciones funcionales comprobadas por encima de 4.5:1. Los valores exactos están en el JSON.
+El inventario actual incluye **59 SVG en concepts y 71 PNG**, más la lámina comparativa fuera de esa carpeta. Las tres parejas tinta/papel superan 10:1; el ajuste del oliva B y del óxido C elevó las combinaciones funcionales comprobadas por encima de 4.5:1. Los valores exactos están en el JSON.
+
+Refinamiento A: el favicon pasa de cobalto a azul tinta #192C46, manteniendo la geometría original. Se entregan variantes tinta/blanco y niebla/tinta a 16, 32, 48 y 512 px. Ver `concepts/concept-a/favicon-refinement.md` y `favicon-a-refinement.png` para comparación de reducción. Contraste blanco/tinta: 14.09:1; tinta/niebla: 12.73:1.
 
 Estas comprobaciones no prueban por sí solas calidad estética o registrabilidad. La existencia de un enlace externo tampoco garantiza que siga accesible.
 

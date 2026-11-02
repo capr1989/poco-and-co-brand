@@ -18,7 +18,9 @@ La comprobación automatizada se hizo por HTTP local. Si el navegador restringe 
 | B · Cada día, un poco | Cálida y editorial | Fraunces con una firma secundaria espaciada |
 | C · Un mundo en Poco | Compacta y comercial | Nombre en dos líneas con un mismo ancho |
 
-Vista general: [propuestas](comparison/proposals.png). Hay 57 SVG de conceptos, diagramas y estudios tipográficos, y 63 PNG exportados. Además se incluyen la lámina comparativa, fuentes y licencias, guías, tokens, investigación y evidencia de QA.
+Vista general: [propuestas](comparison/proposals.png). Hay 59 SVG de conceptos, diagramas y estudios tipográficos, y 71 PNG exportados. Además se incluyen la lámina comparativa, fuentes y licencias, guías, tokens, investigación y evidencia de QA.
+
+**Refinamiento solicitado:** A es la favorita de los fundadores. Su [favicon actualizado](concepts/concept-a/favicon.svg) usa el azul tinta de la marca; [detalle y variantes](concepts/concept-a/favicon-refinement.md).
 
 ## Documentación
 

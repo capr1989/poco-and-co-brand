@@ -19,3 +19,10 @@
 - Las compactas y el favicon son abreviaciones tipográficas, no símbolos independientes con conceptos añadidos.
 - Empaque y tienda son mockups; no se implementa Shopify ni se publica ninguna página.
 - Se entrega para evaluación de los fundadores, sin selección automática de una ruta.
+
+## Refinamiento del favicon A — petición de los fundadores
+
+- Los fundadores indican A / En buena compañía como favorita.
+- Fondo del favicon alineado con azul tinta #192C46; se conserva la p geométrica blanca.
+- Se añade inversión en niebla #F1F4F2 con p azul tinta, junto a PNG de 16, 32, 48 y 512 px.
+- Se actualiza su aplicación en navegador; no se rediseña la identidad.
